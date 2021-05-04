@@ -138,13 +138,8 @@ body {
 
  /* Footer */
  footer {
-     .socialmedia-icons, .footer-text {
-         display: inline-flex;
-         justify-content: space-around;
-           
-     }
      i {
-        font-size: 20px;
+        font-size: 30px;
         border: solid;
         border-color: goldenrod;
         border-width: 27px;
@@ -156,9 +151,6 @@ body {
      }
      li {
         font-size: 0;
+        text-align: right;
     }
-    p {
-        font-weight: bold;
-    }
-
  }
