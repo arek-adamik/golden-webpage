@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     font-family: $font-text;
+    color: $color-text;
 }
 .container {
     max-width: 1140px;
@@ -17,12 +18,9 @@ body {
 	align-items: center;
 	margin: auto;
 }
-/* Main section */
-section {
-    background-image: url(https://images.pexels.com/photos/174524/pexels-photo-174524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
 /* Navigation */
 .navigation {
+    background-color: green;
     padding: 12px 0 12px 0;
         ul {
             padding: 0;
@@ -37,19 +35,24 @@ section {
             padding-top: 20px;
             margin-left: 40px;
             font-family: $font-logo;
-            color: rgb(2, 2, 1);
-            text-shadow: goldenrod;
+            color: goldenrod;
             font-size: 30px;
         }
         li {
             display: inline-block;
             margin-right: 36px;
             position: relative;
-
         }
         a {
-            color: rgb(0, 0, 0);
-            font-family: $font-header;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
         }
 /* Splash */
 .splash {
@@ -58,6 +61,7 @@ section {
         .page-title {
             margin: 0;
             font-size: 72px;
+            word-spacing: -24px;
             font-weight: 700;
             line-height: 1.2;
             font-family: $font-header;
@@ -75,29 +79,4 @@ section {
     margin: auto;
     max-width: 70%;
 }
-.button {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    padding: 20px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;   
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #070807;
-    border: none;
-    border-radius: 15px;
-    width: 250px;
-  }
-  .button:hover {
-      background-color: rgb(69, 70, 32)
-      text-decoration: none;
-    }
-  .button:active {
-    background-color: rgb(69, 70, 32);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-    text-decoration: none;  
-  }
+

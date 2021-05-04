@@ -45,11 +45,17 @@ section {
             display: inline-block;
             margin-right: 36px;
             position: relative;
-
+            color: rgb(0, 0, 0);
         }
         a {
-            color: rgb(0, 0, 0);
-            font-family: $font-header;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
         }
 /* Splash */
 .splash {
@@ -91,13 +97,11 @@ section {
     border-radius: 15px;
     width: 250px;
   }
-  .button:hover {
-      background-color: rgb(69, 70, 32)
-      text-decoration: none;
-    }
+  
+  .button:hover {background-color: #3e8e41}
+  
   .button:active {
-    background-color: rgb(69, 70, 32);
+    background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    text-decoration: none;  
   }

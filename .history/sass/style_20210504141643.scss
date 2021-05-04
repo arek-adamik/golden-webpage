@@ -37,19 +37,24 @@ section {
             padding-top: 20px;
             margin-left: 40px;
             font-family: $font-logo;
-            color: rgb(2, 2, 1);
-            text-shadow: goldenrod;
+            color: goldenrod;
             font-size: 30px;
         }
         li {
             display: inline-block;
             margin-right: 36px;
             position: relative;
-
         }
         a {
-            color: rgb(0, 0, 0);
-            font-family: $font-header;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
         }
 /* Splash */
 .splash {
@@ -79,25 +84,24 @@ section {
     display: block;
     margin: 0 auto;
     position: relative;
-    padding: 20px 25px;
+    padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;   
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #070807;
+    background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    width: 250px;
+    box-shadow: 0 9px #999;
+    width: 100px;
   }
-  .button:hover {
-      background-color: rgb(69, 70, 32)
-      text-decoration: none;
-    }
+  
+  .button:hover {background-color: #3e8e41}
+  
   .button:active {
-    background-color: rgb(69, 70, 32);
+    background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    text-decoration: none;  
   }

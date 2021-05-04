@@ -1,5 +1,28 @@
+/* Variabbles */
+/* Global */
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Tinos", serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Main section */
+section {
+  background-image: url(https://images.pexels.com/photos/174524/pexels-photo-174524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+/* Navigation */
 .navigation {
-  background-color: green;
   padding: 12px 0 12px 0;
 }
 
@@ -12,11 +35,12 @@
 
 .logo {
   text-align: left;
-  padding-top: 40px;
+  padding-top: 20px;
   margin-left: 40px;
   font-family: "Molle", cursive;
-  color: goldenrod;
-  font-size: 40px;
+  color: #020201;
+  text-shadow: goldenrod;
+  font-size: 30px;
 }
 
 li {
@@ -26,16 +50,63 @@ li {
 }
 
 a {
-  text-decoration: none;
-  color: white;
+  color: black;
+  font-family: "Krona One", sans-serif;
 }
 
-a:hover {
-  color: white;
-  text-decoration: none;
+/* Splash */
+.splash {
+  min-height: 500px;
+  display: flex;
 }
 
-.menu {
-  display: none;
+.splash .page-title {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Krona One", sans-serif;
+  text-align: center;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLHVCQUF1QjtFQUN2QixzQkFBc0I7QUNGMUI7O0FEQUE7RUFJWSxVQUFVO0VBQ1YsU0FBUztFQUNULHFCQUFxQjtFQUNyQixpQkFBaUI7QUNBN0I7O0FESVE7RUFDSSxnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtFQUNqQiw2QkFqQmdCO0VBa0JoQixnQkFBZ0I7RUFDaEIsZUFBZTtBQ0QzQjs7QURHUTtFQUNJLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FDQTlCOztBREVRO0VBQ0kscUJBQXFCO0VBQ3JCLFlBQVk7QUNDeEI7O0FEQ1E7RUFDSSxZQUFZO0VBQ1oscUJBQXFCO0FDRWpDOztBREFRO0VBQ0ksYUFBYTtBQ0d6QiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+.splash .page-subtitle {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #070807;
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+}
+
+.button:hover {
+  background-color: #454620;
+}
+
+.button:active {
+  background-color: #454620;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxlQUFBO0FBSUEsV0FBQTtBQUNBO0VBQ0ksU0FBUztFQUNULGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsMkJBTnNCO0FDSTFCOztBRElBO0VBQ0ksaUJBQWlCO0VBQ2pCLHNCQUFzQjtFQUN0QixhQUFhO0VBQ2hCLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsWUFBWTtBQ0RiOztBREdBLGlCQUFBO0FBQ0E7RUFDSSxvSUFBb0k7QUNBeEk7O0FERUEsZUFBQTtBQUNBO0VBQ0ksc0JBQXNCO0FDQzFCOztBREZBO0VBR1ksVUFBVTtFQUNWLFNBQVM7RUFDVCxxQkFBcUI7RUFDckIsaUJBQWlCO0FDRzdCOztBRENRO0VBQ0ksZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixpQkFBaUI7RUFDakIsNkJBcENnQjtFQXFDaEIsY0FBbUI7RUFDbkIsc0JBQXNCO0VBQ3RCLGVBQWU7QUNFM0I7O0FEQVE7RUFDSSxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQ0c5Qjs7QURBUTtFQUNJLFlBQW1CO0VBQ25CLG9DQWxEeUI7QUNxRHJDOztBRERBLFdBQUE7QUFDQTtFQUNJLGlCQUFpQjtFQUNqQixhQUFhO0FDSWpCOztBRE5BO0VBSVksU0FBUztFQUNULGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLG9DQTdEeUI7RUE4RHpCLGtCQUFrQjtBQ005Qjs7QURmQTtFQVlZLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLG9DQXBFeUI7RUFxRXpCLGtCQUFrQjtBQ085Qjs7QURKQTtFQUNJLFlBQVk7RUFDWixjQUFjO0FDT2xCOztBRExBO0VBQ0ksY0FBYztFQUNkLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLHFCQUFxQjtFQUNyQixhQUFhO0VBQ2IsV0FBVztFQUNYLHlCQUF5QjtFQUN6QixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLFlBQVk7QUNRaEI7O0FETEU7RUFBZSx5QkFBaUM7QUNTbEQ7O0FEUEU7RUFDRSx5QkFBaUM7RUFDakMsc0JBQXNCO0VBQ3RCLDBCQUEwQjtFQUMxQixxQkFBcUI7QUNVekIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
