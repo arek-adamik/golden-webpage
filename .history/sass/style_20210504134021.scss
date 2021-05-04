@@ -32,11 +32,11 @@ body {
         }
         .logo {
             text-align: left;
-            padding-top: 20px;
+            padding-top: 40px;
             margin-left: 40px;
             font-family: $font-logo;
             color: goldenrod;
-            font-size: 30px;
+            font-size: 40px;
         }
         li {
             display: inline-block;
@@ -77,6 +77,6 @@ body {
 }
 .splash-inner {
     margin: auto;
-    max-width: 70%;
+    max-width: 70%; 
 }
 

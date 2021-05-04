@@ -1,0 +1,24 @@
+.navigation {
+    background-color: $color-main;
+    padding: 12px 0 12px 0;
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        li {
+            display: inline-block;
+            margin-right: 36px;
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: $color-icons;
+        }
+        a:hover {
+            color: $color-icons;
+        }
+        .menu {
+            display: none;
+        }
+}
